@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Juego de ELEMENTOS</title>
+    <link rel="STYLESHEET" type="text/css" href="./css/elementos.css">
+    //
+</head>
+<body>
+    <section id="todo">
+        <h1 class="titulos">💧🔥🌵 NACOS ELEMENTALES 🌵🔥💧</h1>
+        <section id="selecciondenacos">
+            <h2 class="titulos">Selecciona tu Naco:</h2>
+            <div class="cuadritos">
+                <input type="radio" value="gregorio" name="naco" id="gregorio" />
+                <label for="gregorio" onmouseover="showInfo('Gregorio es un Naco color tierra, daño x2 con golpes de 🌵TIERRA🌵')">🌵GREGORIO🌵</label>
+                <img src="materiales/gregorio.png">
+                <input type="radio" value="camaron" name="naco" id="camaron" />
+                <label for="camaron" onmouseover="showInfo('Camaron es un Naco que se duerme en el agua, daño x2 con golpes de 💧AGUA💧')">💧CAMARON💧</label>                
+                <img src="materiales/camaron.png">
+                <input type="radio" value="shotaro" name="naco" id="shotaro" />
+                <label for  ="shotaro" onmouseover="showInfo('Shotaro es un Naco con la cola muy caliente, daño x2 con golpes de 🔥FUEGO🔥')">🔥SHOTARO🔥</label>
+                <img src="materiales/shotaro.jpg">
+                
+            </div>
+        </section>
+        <section id="descripciones1">
+            <section id="descripciones" style="margin: 6px;">
+                <p></p>
+            </section>
+        </section>
+        <button id="botonpeleador">READY</button>
+        <section id="selecciondeataques">
+            <p>Tu <span id="jugadornaco">Naco</span> Tiene_______💖<span id="vidajugador">6</span>💖 Vidas</p>
+            <p>El <span id="enemigonaco">Naco</span> Enemigo tiene 💔<span id="vidaenemigo">6</span>💔 Vidas</p>
+            <div class="botonesdeataque">
+                <button id="afuego">🔥FUEGO🔥</button>
+                <button id="aagua">💧AGUA💧</button>
+                <button id="atierra">🌵TIERRA🌵</button>
+            </div>  
+        </section>
+            <div class="logcitos">
+                <section id ="superlogs">
+                    <section id="logs">
+                        <p class="registrologs">⚔ Combate! ⚔</p>
+                    </section>
+                </section>
+            </div>
+            <section>
+                <button id="breset">🏓RESTART🏓</button>
+            </section>
+            
+    </section> 
+        <!-- <section id="imagen"> -->
+            <!-- <div class="colores"></div> -->
+        <!-- </section> -->
+    <script src="./js/elementos.js"></script>  
+</body>
+</html>
